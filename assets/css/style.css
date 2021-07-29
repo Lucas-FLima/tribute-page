@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #191919;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#introducao img {
+    width: 470px;
+    margin-top: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name h1, .name h2{
+    margin: 0;
+    padding: 10px;
+}
+
+.name h1 {
+    font-size: 40px;
+}
+
+.name h2, #introducao p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#introducao p {
+    width: 470px;
+    text-align: center;
+}
+
+#feitos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 900px;
+}
+
+#feitos ul li {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.textos {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+#follow {
+    display: flex;
+    justify-content: center;
+    background-color: #434141;
+    color: #918E8E;
+}
+
+.teste {
+    padding: 11.5px 0px 11.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div {
+    padding: 5px;
+}
+
+footer a img {
+    width: 40px;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+}
+
+footer a:hover {
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.invencao {
+    display: flex;
+    justify-content: center;
+
+}
+
+.images {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.bobina_tesla {
+    background-image: url(../img/bobina_tesla.jpg);
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.bobina_tesla p, .oscilador_tesla p, .turbina_tesla p  {
+    border-radius: 10px;
+    color: #434141;
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+}
+
+.oscilador_tesla {
+    background-image: url(../img/oscilador_tesla.jpg);
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+.oscilador_tesla p {
+    background-color: #191919;
+    color: #fff;
+}
